@@ -12,4 +12,5 @@ from random import randint
 class Game: 
     def __init__(self):
         pg.init()
+        self.screensize = pg.display.set_mode(WIDTH, HEIGHT)
         
